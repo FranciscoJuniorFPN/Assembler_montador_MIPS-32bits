@@ -1,0 +1,13 @@
+
+ADDI $a1,$a2,5
+foi:
+BEQ $s1,$s3,volta
+SUB $s1,$s3,$s2 ;test1
+;test2
+volta:  
+; test3
+
+J foi
+
+AdD $t5,$s3,$a2
+
